@@ -70,7 +70,7 @@ body {
 }
 
 .section-hero {
-    background-size: ;
+    background-size: auto auto;
     width: 90rem;
     height: auto;
 }
