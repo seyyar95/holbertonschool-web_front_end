@@ -48,7 +48,6 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    background-color: var(--color-black);
 }
 
 body {
@@ -134,6 +133,7 @@ a:active {
 
 .section-body {
     padding: var(--section-body-padding);
+    background-color: var(--color-black);
 }
 
 .section-footer {
