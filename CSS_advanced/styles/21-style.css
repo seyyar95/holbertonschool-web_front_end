@@ -50,6 +50,11 @@ html {
     font-size: 62.5%;
 }
 
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -169,10 +174,7 @@ ul.row {
     list-style: none;
 }
 
-[class^="col-"] {
-    float: left;
-    padding: 0.5rem;
-}
+
 
 .row::after {
     content: "";
